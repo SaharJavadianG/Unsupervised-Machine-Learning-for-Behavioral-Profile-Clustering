@@ -5,7 +5,7 @@
 
 This project explores whether unsupervised machine learning can discover meaningful behavioral population segments without using clinical diagnosis labels during training.
 
-Instead of relying only on single health indicators such as BMI, the analysis uses lifestyle, behavioral, and biometric features to identify naturally occurring groups within the data. The final model applies **K-Means clustering** to create interpretable population profiles that can support prevention-focused health and wellness strategies.
+Instead of relying only on single health indicators such as BMI, the analysis uses lifestyle, behavioral, and biometric features to identify naturally occurring groups within the data. The final model applies **K-Means clustering** to create interpretable profiles that can support prevention-focused health and wellness strategies.
 
 ## Objective
 
@@ -20,11 +20,10 @@ The goal of this project is to:
 
 ## Dataset Context
 
-The dataset contains demographic, biometric, and lifestyle-related variables. The target column, `NObeyesdad`, is used only for ground-truth isolation and is not included in model training.
+The dataset contains lifestyle-related variables. The target column, `NObeyesdad`, is used only for ground-truth isolation and is not included in model training.
 
 Key feature categories include:
 
-- Demographic traits
 - Body measurements
 - Eating habits
 - Physical activity
@@ -49,7 +48,7 @@ columns_to_drop = [
 df_features = df.drop(columns=columns_to_drop, errors="ignore")
 ```
 
-`SMOKE` and `SCC` are removed because they have very low variance and limited segmentation value.
+`SMOKE` and `SCC` are removed because they have low information value
 
 ### 2. Variance Audit
 
