@@ -3,9 +3,11 @@
 
 ## Project Overview
 
-This project explores whether unsupervised machine learning can discover meaningful behavioral population segments without using clinical diagnosis labels during training.
+Traditional obesity analysis often focuses on calorie quantity alone. However, behavioral instability—such as skipping structured meals, irregular eating timing, sedentary routines, and excessive screen exposure—can play a far more significant role in long-term health outcomes.
 
-Instead of relying only on single health indicators such as BMI, the analysis uses lifestyle, behavioral, and biometric features to identify naturally occurring groups within the data. The final model applies **K-Means clustering** to create interpretable profiles that can support prevention-focused health and wellness strategies.
+This project investigates whether unsupervised machine learning can discover hidden behavioral population segments without using clinical diagnosis labels during training.
+
+Instead of relying solely on single health indicators such as BMI, the analysis uses lifestyle, biometric, and behavioral features to identify naturally occurring groups within the population. Using K-Means clustering, the model constructs interpretable behavioral personas that can support prevention-focused healthcare and wellness strategies.
 
 ## Objective
 
