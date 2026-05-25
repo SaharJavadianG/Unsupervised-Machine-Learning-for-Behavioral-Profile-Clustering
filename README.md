@@ -1,5 +1,5 @@
 # Unsupervised-Machine-Learning-for-Behavioral-Profile-Clustering
-# Small Research Case Study: Unsupervised Machine Learning for Behavioral Profile Clustering
+# Research Case Study: Unsupervised Machine Learning for Behavioral Profile Clustering
 
 ## Project Overview
 
